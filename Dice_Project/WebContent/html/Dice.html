@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Dice Game</title>
+		<link rel="StyleSheet" type="text/css" href="../css/Dice.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class = "row">
+			<div class = "game">
+				<a href = "#" class = "new"><ion-icon name="add-circle-outline" class ="start"></ion-icon>New Game</a>
+			</div>
+		    	   
+			<div class = "row2">    
+			   <div class = "player-1">
+	     	    	<div class = "player1" id = "player-0">PLAYER 1</div>
+			    	<div class = "num" id = "num0">43</div>	
+			   </div>
+
+			   <div id = "image">
+			   	<img class = "dice" src="../images/dice1.png" alt = "Number1">
+			   </div>
+
+		       <div class = "player-2">
+			    	<div class = "player2" id = "player-1">PLAYER 2</div>
+			    	<div class = "num" id = "num1">72</div>
+			    	
+			   </div>	
+			</div>
+
+			<div class = "row2">
+				<div class = "current box-left">
+				   <p class = "p1">current</p>
+				   <p class = "p2" id = "current-0">0</p>
+			    </div>
+				<div class = "button">		
+				   	<a href="#" class = "roll"><ion-icon name="sync"></ion-icon>roll dice</a>
+				   	<a href="#" class = "pause"><ion-icon name="download-outline"></ion-icon>hold</a>   
+			    </div>  
+			    <div class = "current box-right" id = "current2">
+			    	<p class = "p1">current</p>
+			    	<p class = "p2" id = "current-1">0</p>
+			    </div>
+			</div>   
+		</div> 
+
+		<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>		
+		<script src="../js/Dice.js"></script>
+	</body>
+</html>

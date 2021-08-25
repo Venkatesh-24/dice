@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-size: 20px;
+	color: #000;
+	height: 100vh;
+	font-family: 'Lato';
+	font-weight: 300;
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));	
+}
+
+
+.row
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+
+}
+
+
+.game
+{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.row2
+{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+
+}
+
+.player-1, .player-2
+{
+	margin: 0 100px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+
+
+
+.player-shift
+{
+	border-bottom: 2px solid red;
+	padding: 6px 0;
+	width: 90px;
+	margin-left: auto;
+	
+}
+
+
+#num0
+{
+	margin-left: 15px;
+}
+
+#num1
+{
+	margin-left: 15px;
+}
+
+.num
+{
+	color: orange;
+	font-size: 300%;
+}
+
+.current
+{
+	margin-top: 130px;
+	background-color: red;
+	border: 1px solid red;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 42px;
+	color: #fff; 
+}
+
+.box-left
+{
+	margin-left: 80px;
+}
+
+.box-right
+{
+	margin-right: 80px;
+}
+
+.p1
+{
+	color: #181818;
+}
+
+.p2
+{
+	margin-top: 8px;
+	margin-left: 25px;
+}
+
+.roll, .pause
+{
+	display: block;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.button
+{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 130px;
+}
+
+ a:link,
+ a:visited
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: rgb(255,140,0);
+	transform: scale(1.0);
+	transition: 0.5s;
+}
+
+ a:hover,
+ a:active
+{
+	transform: scale(0.8);
+}
+
+ion-icon
+{
+	font-size: 200%;
+	color: orange;
+	vertical-align: middle;
+	margin-top: -10px;
+	margin-right: 10px;
+}
+
+.start
+{
+	vertical-align: middle;
+	margin-top: 0px;
+}
+
+.dice-style
+{
+	margin-top: 35px;
+	height: 80px;
+	width: 90px;
+	display: block;
+	border-radius: 10px;
+}
+
+.winner
+{
+	font-size: 130%;
+	color: green;
+	font-family: bold;
+}
+
